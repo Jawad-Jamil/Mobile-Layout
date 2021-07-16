@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    /* border: 1px solid greenyellow; */
+}
+
+
+
+:root{
+    --mcolor: #2f7efd;
+    --white: #ffffff;
+    --black: #222222;
+    --txtcolor: #9A9A9A;
+}
