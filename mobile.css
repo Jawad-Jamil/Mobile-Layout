@@ -113,8 +113,6 @@ i.cross{
 
 
 
-
-
 main{
     height: calc(100vh - 124px);
 }
@@ -122,6 +120,7 @@ main{
 
 main div{
     padding: 5px 10px;
+    padding-bottom: 10px;
     height: 100%;
     overflow-x: hidden;
     overflow-y: scroll;
