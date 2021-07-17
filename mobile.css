@@ -71,8 +71,24 @@ header{
     background-color: var(--mcolor);
     z-index: 1;
     height: 100%;
-    width: 80vw;
+    width: 290px;
     box-shadow: 0px 0px 20px 5px #484848;
+}
+
+
+.menu_items:hover{
+    overflow-y: scroll;
+}
+
+
+.menu_items::-webkit-scrollbar{
+    width: 5px;
+}
+
+
+.menu_items::-webkit-scrollbar-thumb{
+    background-color: #9a9a9a;
+    border-radius: 5px;
 }
 
 
@@ -94,7 +110,13 @@ i.cross{
     font-size: 25px;
     z-index: 2;
     transform: translate(-7px);
+    cursor: pointer;
     display: none;
+}
+
+
+i{
+    cursor: pointer;
 }
 
 .overlay{
@@ -113,6 +135,8 @@ i.cross{
 
 
 
+
+
 main{
     height: calc(100vh - 124px);
 }
@@ -125,6 +149,7 @@ main div{
     overflow-x: hidden;
     overflow-y: scroll;
 }
+
 main div::-webkit-scrollbar{
     width: 0px;
 }
