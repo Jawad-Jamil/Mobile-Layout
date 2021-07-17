@@ -8,5 +8,5 @@ function bar_call(){
     node2.className = "overlay";
     document.getElementById("top_menu").appendChild(node2);
 
-    document.getElementsByClassName('overly').style.left = '85vw';
+    document.getElementsByClassName('overly').style.left = '80vw';
 }
