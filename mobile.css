@@ -176,6 +176,10 @@ footer{
     text-transform: capitalize;
 }
 
+.option a:hover{
+    color: var(--mcolor);
+}
+
 .bottom_menu_wrapper{
     display: flex;
     justify-content: space-between;
