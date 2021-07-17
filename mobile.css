@@ -114,13 +114,14 @@ i.cross{
 
 
 main{
-    height: calc(100vh - 128px);
+    height: calc(100vh - 65px);
 }
 
 
 main div{
     padding: 5px 10px;
-    height: 99%;
+    padding-bottom: 0px;
+    height: 88%;
     overflow-x: hidden;
     overflow-y: scroll;
 }
