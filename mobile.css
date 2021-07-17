@@ -88,9 +88,6 @@ header{
 i.cross{
     font-size: 25px;
     z-index: 2;
-    position: absolute;
-    right: 20px;
-    top: 20px;
 }
 
 div.overlay{
