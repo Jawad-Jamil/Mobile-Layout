@@ -112,6 +112,26 @@ i.cross{
 }
 
 
+
+
+
+main{
+    height: calc(100vh - 124px);
+}
+
+
+main div{
+    padding: 5px 10px;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+main div::-webkit-scrollbar{
+    width: 0px;
+}
+
+
 footer{
     background-color: var(--white);
     padding: 12px 20px;
@@ -143,6 +163,6 @@ footer{
 }
 
 
-.bottom_menu_wrapper .active{
+.bottom_menu_wrapper .active a{
     color: var(--mcolor);
 }
