@@ -26,17 +26,17 @@ header{
 
 .social_menu i.fa-facebook-f {
     background-color: #3b5a9a;
-    padding: 7px 10px;
+    padding: 10px 13px;
 }
 
 .social_menu i.fa-twitter {
     background-color: #1aa9e1;
-    padding: 7px 7px;
+    padding: 10px 10px;
 }
 
 .social_menu i.fa-instagram {
     background-color: #7c4a3a;
-    padding: 7px 8.5px;
+    padding: 7px 11.5px;
 }
 
 
@@ -47,11 +47,11 @@ header{
 
 .menu-items_wrapper ul li{
     color: var(--white);
-    padding: 7% 0px;
+    padding: 8% 0px;
     display: flex;
     justify-content: space-between;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 600;
 }
 
@@ -66,7 +66,7 @@ header{
     background-color: var(--mcolor);
     z-index: 1;
     height: 100%;
-    width: 85vw;
+    width: 80vw;
     box-shadow: 0px 0px 20px 5px #575757;
 }
 
