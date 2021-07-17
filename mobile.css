@@ -67,7 +67,7 @@ header{
     z-index: 1;
     height: 100%;
     width: 80vw;
-    box-shadow: 0px 0px 20px 5px #575757;
+    box-shadow: 0px 0px 20px 5px #484848;
 }
 
 
@@ -88,10 +88,12 @@ header{
 i.cross{
     font-size: 25px;
     z-index: 2;
+    transform: translate(-7px);
+    display: none;
 }
 
-div.overlay{
-    display: inline-block;
+.overlay{
+    display: none;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -101,6 +103,7 @@ div.overlay{
     transition: 0.5s;
     background-color: #000000;
     opacity: 0.6;
+    z-index: 1;
 }
 
 
